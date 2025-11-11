@@ -23,7 +23,7 @@ const Login = () => {
     }
 
     try {
-      const url = "http://localhost:8080/auth/login"
+      const url = "https://medicofrontend.vercel.app/login"
       const response = await fetch(url,
          {
         method: "POST",

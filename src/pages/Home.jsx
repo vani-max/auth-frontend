@@ -23,7 +23,7 @@ const Home = () => {
 
   const fetchProducts = async () => {
     try {
-      const url = "http://localhost:8080/auth/doctors";
+      const url = "https://medicofrontend.vercel.app/doctors";
       const headers = {
         headers: {
           Authorization: localStorage.getItem('token'),
