@@ -24,7 +24,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "https://auth-backend-yybv.onrender.com/signup"
+      const url = "https://auth-backend-yybv.onrender.com/auth/signup"
       const response = await fetch(url,
          {
         method: "POST",

@@ -23,7 +23,7 @@ const Login = () => {
     }
 
     try {
-      const url = "https://auth-backend-yybv.onrender.com/login"
+      const url = "https://auth-backend-yybv.onrender.com/auth/login"
       const response = await fetch(url,
          {
         method: "POST",
