@@ -111,3 +111,8 @@ doctors only
 
 /api/admin/users  GET        Get all patients         public
 
+
+Frontend Link : https://auth-frontend-git-main-vani-maxs-projects.vercel.app/login
+Backend Link : https://auth-backend-yybv.onrender.com/
+Database: mongodb+srv://vanivashishtha2024_db_user:YZOtGEjyrXQmYloj@cluster0.mrct62r.mongodb.net/?appName=Cluster0
+
