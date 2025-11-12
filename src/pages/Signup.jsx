@@ -24,7 +24,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "https://medicofrontend.vercel.app/signup"
+      const url = "https://auth-backend-yybv.onrender.com/signup"
       const response = await fetch(url,
          {
         method: "POST",
@@ -33,7 +33,7 @@ const Signup = () => {
       });
 
       const result = await response.json();
-      const {success,message,error} = result;
+      const {success,error} = result;
       if(success){
         toast.success("Signup successful!");
         setTimeout(()=>{

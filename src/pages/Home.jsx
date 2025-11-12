@@ -23,7 +23,7 @@ const Home = () => {
 
   const fetchProducts = async () => {
     try {
-      const url = "https://medicofrontend.vercel.app/doctors";
+      const url = "https://auth-backend-yybv.onrender.com/doctors";
       const headers = {
         headers: {
           Authorization: localStorage.getItem('token'),

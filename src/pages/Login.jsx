@@ -23,7 +23,7 @@ const Login = () => {
     }
 
     try {
-      const url = "https://medicofrontend.vercel.app/login"
+      const url = "https://auth-backend-yybv.onrender.com/login"
       const response = await fetch(url,
          {
         method: "POST",
@@ -33,7 +33,7 @@ const Login = () => {
 
       const result = await response.json();
       console.log(result)
-      const {success,message,jwToken, name, error} = result;
+      const {success,jwToken, name, error} = result;
       if(success){
         toast.success("Loginup successful!");
         localStorage.setItem('token',jwToken);
